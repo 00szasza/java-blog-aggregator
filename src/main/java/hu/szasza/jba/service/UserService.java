@@ -1,4 +1,4 @@
-package hu.szasza.jba.cervice;
+package hu.szasza.jba.service;
 
 import java.util.List;
 

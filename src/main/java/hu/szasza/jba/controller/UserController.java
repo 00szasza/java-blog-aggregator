@@ -1,6 +1,6 @@
 package hu.szasza.jba.controller;
 
-import hu.szasza.jba.cervice.UserService;
+import hu.szasza.jba.service.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
