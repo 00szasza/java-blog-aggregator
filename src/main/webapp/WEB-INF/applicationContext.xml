@@ -43,4 +43,6 @@
     
     <jpa:repositories base-package="hu.szasza.jba.repository" entity-manager-factory-ref="emf" transaction-manager-ref="transactionManager"/>
     
+    <import resource="security.xml"/>
+    
 </beans>

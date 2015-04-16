@@ -4,10 +4,13 @@
   <artifactId>java-blog-aggregator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+
   <properties>
   	<org.springframework.version>4.1.5.RELEASE</org.springframework.version>
+  	<org.springframework.security>4.0.0.RELEASE</org.springframework.security>
   	<apache.tiles>3.0.5</apache.tiles>
   </properties>
+
   <dependencies>
   <!--
 	    Core utilities used by other modules.
@@ -126,7 +129,7 @@
 	<!--
 	    Spring MVC for Servlet Environments (depends on spring-core, spring-beans, spring-context, spring-web)
 	    Define this if you use Spring MVC with a Servlet Container such as Apache Tomcat (org.springframework.web.servlet.*)
-	-->
+	-->ä
 	<dependency>
 	  <groupId>org.springframework</groupId>
 	  <artifactId>spring-webmvc</artifactId>
@@ -212,6 +215,17 @@
 		<groupId>jstl</groupId>
 		<artifactId>jstl</artifactId>
 		<version>1.2</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.springframework.security</groupId>
+		<artifactId>spring-security-web</artifactId>
+		<version>${org.springframework.security}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.security</groupId>
+		<artifactId>spring-security-config</artifactId>
+		<version>${org.springframework.security}</version>
 	</dependency>
 	
   </dependencies>

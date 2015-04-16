@@ -41,9 +41,9 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-		        <li class="${current == 'index'? 'active' : '' }"><a href='<spring:url value="/"/>'>Home <span class="sr-only">(current)</span></a></li>
-		        <li class="${current == 'users'? 'active' : '' }"><a href='<spring:url value="/users.html"/>'>Users</a></li>
-		        <li><a href="#">Link</a></li>
+		        <li class="${ current == 'index'? 'active' : '' }"><a href='<spring:url value="/"/>'>Home <span class="sr-only">( current )</span></a></li>
+		        <li class="${ current == 'users'? 'active' : '' }"><a href='<spring:url value="/users.html"/>'>Users</a></li>
+		        <li class="${ current == 'register'? 'active' : '' }"><a href='<spring:url value="/register.html"/>'>Registration</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
