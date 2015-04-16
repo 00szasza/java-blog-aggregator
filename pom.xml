@@ -1,7 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+		>
+
   <modelVersion>4.0.0</modelVersion>
   <groupId>hu.szasza.jba</groupId>
   <artifactId>java-blog-aggregator</artifactId>
+	<name>java-blog-aggregator</name>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -12,6 +17,7 @@
   </properties>
 
   <dependencies>
+  
   <!--
 	    Core utilities used by other modules.
 	    Define this if you use Spring Utility APIs (org.springframework.core.*/org.springframework.util.*)
@@ -129,7 +135,7 @@
 	<!--
 	    Spring MVC for Servlet Environments (depends on spring-core, spring-beans, spring-context, spring-web)
 	    Define this if you use Spring MVC with a Servlet Container such as Apache Tomcat (org.springframework.web.servlet.*)
-	-->ä
+	-->
 	<dependency>
 	  <groupId>org.springframework</groupId>
 	  <artifactId>spring-webmvc</artifactId>
@@ -229,6 +235,7 @@
 	</dependency>
 	
   </dependencies>
+  
   <build>
   	<plugins>
 		 <plugin>
