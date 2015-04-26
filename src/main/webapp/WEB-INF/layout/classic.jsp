@@ -3,6 +3,7 @@
     <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
 <!DOCTYPE html>
 <html>
+
 <head>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -18,6 +19,7 @@
 </head>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <body>
+
 
 	<%@ taglib uri="http://tiles.apache.org/tags-tiles-extras" prefix="tilesx" %>
 	
@@ -44,6 +46,8 @@
 		        <li class="${ current == 'index'? 'active' : '' }"><a href='<spring:url value="/"/>'>Home <span class="sr-only">( current )</span></a></li>
 		        <li class="${ current == 'users'? 'active' : '' }"><a href='<spring:url value="/users.html"/>'>Users</a></li>
 		        <li class="${ current == 'register'? 'active' : '' }"><a href='<spring:url value="/register.html"/>'>Registration</a></li>
+		        <li class="${ current == 'login'? 'active' : '' }"><a href='<spring:url value="/login.html"/>'>Login</a></li>
+		        <li> <a href='<spring:url value="/logout"/>'>Logout</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
